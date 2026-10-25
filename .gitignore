@@ -18,7 +18,10 @@ build/
 reference/
 rea-main/
 
-# Temporary Local Files
+# Prompts & Temporary Media
+Prompt.md
+WhatsApp Image 1.jpeg
+WhatsApp Image 2.jpeg
 *.jpeg
 
 # Environment Variables & Secrets
