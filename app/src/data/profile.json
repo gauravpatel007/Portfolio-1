@@ -1,0 +1,145 @@
+{
+  "personal": {
+    "name": "Gaurav B Patel",
+    "wordmark": "GAURAV",
+    "role": {
+      "bold": "AI/ML",
+      "light": "Engineer"
+    },
+    "title": "AI/ML Engineer",
+    "headline": "Engineering Intelligent Systems with Generative AI, LLMs & Advanced NLP",
+    "location": "Ahmedabad, Gujarat, India",
+    "summary": "AI/ML-focused Computer Science undergraduate skilled in Python and NLP, with hands-on experience building LLM chatbots and RAG applications using LangChain, vector databases, Ollama, and Hugging Face. AI Intern at Ativeg Technologies and Final Round participant at the Odoo x Indus University Hackathon 2026.",
+    "email": "gaurav.patel.1008.2006@gmail.com",
+    "links": {
+      "github": "https://github.com/gauravpatel007",
+      "linkedin": "https://linkedin.com/in/gaurav-patel",
+      "portfolio": ""
+    },
+    "education": {
+      "degree": "Bachelor of Technology in Computer Science Engineering",
+      "institution": "Indus Institute of Technology & Engineering, Indus University",
+      "location": "Ahmedabad, Gujarat",
+      "expectedGraduation": "May 2027"
+    }
+  },
+  "skills": {
+    "languages": ["Python"],
+    "frameworks": ["PyTorch", "TensorFlow", "Scikit-learn"],
+    "generativeAI": [
+      "LangChain",
+      "LangGraph",
+      "RAG Pipelines",
+      "Reranking",
+      "Vector Databases",
+      "LLM APIs",
+      "Ollama",
+      "Hugging Face",
+      "Conversational Chatbots"
+    ],
+    "deepLearningAndNLP": [
+      "Neural Networks",
+      "Deep Learning",
+      "NLP",
+      "spaCy",
+      "TF-IDF",
+      "Hyperparameter Tuning"
+    ],
+    "dataScience": [
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Feature Engineering",
+      "Data Visualization"
+    ],
+    "tools": [
+      "Git",
+      "GitHub",
+      "Docker",
+      "Jupyter Notebook",
+      "Google Colab",
+      "PostgreSQL",
+      "React"
+    ]
+  },
+  "experience": [
+    {
+      "role": "AI Intern",
+      "company": "Ativeg Technologies",
+      "duration": "Jul 2026 – Present",
+      "description": "Working on NLP and AI/ML projects while building skills in Generative AI, LangChain, RAG, and agentic AI workflows."
+    },
+    {
+      "role": "AI Intern",
+      "company": "Indus University",
+      "duration": "Jun 2024 – Jul 2024",
+      "description": "Completed a one-month AI internship covering machine learning, deep learning fundamentals, and neural network concepts."
+    }
+  ],
+  "projects": [
+    {
+      "id": "lifeos",
+      "title": "LifeOS – AI Healthcare Platform",
+      "status": "In Development",
+      "technologies": ["GenAI", "NLP", "Health Intelligence", "Python"],
+      "shortDescription": "Comprehensive AI healthcare platform unifying symptom analysis, medical record comprehension, personalized fitness and nutrition guidance, and medication management.",
+      "bullets": [
+        "Developing an AI healthcare platform covering symptom analysis, medical record understanding, personalized fitness and nutrition recommendations, medication management, and health tracking.",
+        "Integrating Generative AI, NLP, and recommendation systems to turn user health data into personalized insights and summaries across multiple wellness modules."
+      ],
+      "githubUrl": "https://github.com/gauravpatel007/Healthcare-Ai-Mobile",
+      "demoUrl": "http://16.171.242.175/"
+    },
+    {
+      "id": "ai-resume-intelligence",
+      "title": "AI Resume Intelligence",
+      "status": "Completed",
+      "technologies": ["Python", "spaCy", "React", "PostgreSQL", "NLP"],
+      "shortDescription": "Full-stack resume screening platform with spaCy NLP extraction, TF-IDF job role prediction, candidate ranking, and PDF export.",
+      "bullets": [
+        "Built a full-stack resume screening platform where candidates upload PDF resumes and recruiters search and rank candidates by job role and skills.",
+        "Implemented NLP extraction with spaCy (NER, skill matching), TF-IDF job role prediction, a weighted 100-point ranking algorithm, JWT role-based authentication, and PDF report export."
+      ],
+      "githubUrl": "https://github.com/gauravpatel007/Ai-Resume-Intelligence",
+      "demoUrl": ""
+    },
+    {
+      "id": "rag-study-assistant",
+      "title": "RAG-Based Study Assistant",
+      "status": "Completed",
+      "technologies": ["Python", "RAG", "Ollama", "Qwen3", "Sentence Transformers"],
+      "shortDescription": "Locally running, privacy-preserving study assistant for semantic PDF document Q&A with source citations using Ollama and local LLM.",
+      "bullets": [
+        "Developed a locally running, RAG-based study assistant that enables users to upload PDF documents and ask questions grounded in their content.",
+        "Integrated Ollama with a local LLM and semantic retrieval to generate document-based answers with source citations, supporting offline use without paid AI APIs."
+      ],
+      "githubUrl": "https://github.com/gauravpatel007/RAG-Based-Study-assistant",
+      "demoUrl": ""
+    }
+  ],
+  "honorsAndAchievements": [
+    {
+      "title": "Odoo x Indus University Hackathon 2026",
+      "award": "Reached Final Round",
+      "date": "Apr 4–05, 2026",
+      "organization": "Department of Computer Science & Engineering, IITE, Indus University"
+    },
+    {
+      "title": "AI Internship Certificate of Appreciation",
+      "award": "Certificate of Appreciation",
+      "date": "Jun–Jul 2024",
+      "organization": "Indus University"
+    }
+  ],
+  "portrait": {
+    "imagePath": "/assets/hero_center.png",
+    "status": "APPROVED_USER_IMAGE",
+    "approvedFile": "reports/gaurav_hero_center_v2.png",
+    "effectConfig": {
+      "style": "photomosaic-webgl2",
+      "particleCount": 4096,
+      "interactive": true
+    }
+  }
+}

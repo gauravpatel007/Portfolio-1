@@ -6,24 +6,55 @@ This workspace houses the complete reconstruction, enhancement, and personalizat
 
 ## Workspace Navigation
 
-- **Portfolio Application:** [`portfolio-app/`](portfolio-app/)
+- **Portfolio Application:** [`app/`](app/)
   - Complete React 18 + Vite + Tailwind + WebGL2 codebase.
-  - See [`portfolio-app/README.md`](portfolio-app/README.md) for quick-start commands and architectural breakdown.
-- **Verification & Phase Reports:** [`reports/`](reports/)
-  - `00-workspace-and-tool-audit.md`: Environment, sandbox, and tooling verification.
-  - `00.2-personal-profile.md`: CV extraction and source-of-truth mapping.
-  - `01-reference-reconnaissance.md`: Canonical reference architecture and DOM hierarchy.
-  - `02-visual-and-technical-specification.md`: Design tokens, colors, typography, and motion map.
-  - `03-foundation-validation.md`: Styling infrastructure and Tailwind setup audit.
-  - `04-asset-inventory.md`: Localized assets, videos, cutouts, and dimensions.
-  - `05-structural-implementation.md`: 7-section layout reconstruction and component contracts.
-  - `06-animation-implementation.md`: GSAP timelines, word scrub, and WebGL2 particle shader.
-  - `07-visual-comparison.md`: Side-by-side composite diffs and P0–P3 defect resolution.
-  - `08-functional-testing.md`: Automated regression assertions and live interactive user journeys.
-  - `09-responsive-testing.md`: Cross-device verification across desktop, tablet, and mobile.
-  - `10-performance-accessibility-seo.md`: Real telemetry measurements, A11y WCAG AAA, and SEO metadata.
-  - `11-personalization-checklist.md`: Source mapping and content verification checklist.
-  - `12-final-cleanup.md`: Code quality, security audit, and deployment validation.
+  - See [`app/README.md`](app/README.md) for quick-start commands and architectural breakdown.
+
+---
+
+<p align="center">
+  <img src="./assets/hero-banner.png" alt="Gaurav Patel — AI/ML Engineer Portfolio Hero Showcase" width="100%" />
+</p>
+
+## About Me — Gaurav Patel
+
+> **AI/ML Engineer** specializing in Generative AI, Large Language Models (LLMs), RAG Architectures, and Production Full-Stack Systems.
+
+- 📍 **Location:** Ahmedabad, Gujarat, India
+- 🎓 **Education:** B.Tech in Computer Science Engineering — Indus University (Expected May 2027)
+- 💼 **Current Role:** AI Intern at Ativeg Technologies
+- 🌐 **GitHub:** [github.com/gauravpatel007](https://github.com/gauravpatel007)
+- 💼 **LinkedIn:** [linkedin.com/in/gaurav-patel](https://linkedin.com/in/gaurav-patel)
+- ✉️ **Email:** [gaurav.patel.1008.2006@gmail.com](mailto:gaurav.patel.1008.2006@gmail.com)
+
+### Core Technical Competencies
+
+- **Generative AI & LLMs:** LangChain, LangGraph, RAG Pipelines, Vector Databases (Chroma/FAISS), Reranking, Ollama, Hugging Face, Conversational AI Agents
+- **Deep Learning & NLP:** PyTorch, TensorFlow, Scikit-learn, Neural Networks, spaCy, TF-IDF, Word Embeddings
+- **Languages & Frameworks:** Python, React, JavaScript (ES6+), Tailwind CSS, FastAPI
+- **Data Science & Tools:** Pandas, NumPy, Matplotlib, Seaborn, Docker, Git, GitHub, PostgreSQL, WebGL2
+
+### Featured Projects
+
+- **LifeOS — AI Healthcare Platform** *(In Development)*
+  - Comprehensive AI healthcare platform unifying symptom analysis, medical record comprehension, personalized fitness/nutrition guidance, and medication management.
+  - Integrated Generative AI, NLP, and intelligent recommendation systems.
+  - [GitHub Repository](https://github.com/gauravpatel007/Healthcare-Ai-Mobile)
+- **AI Resume Intelligence** *(Completed)*
+  - Full-stack resume screening platform with spaCy NLP extraction (NER & skill matching), TF-IDF job role prediction, weighted 100-point candidate ranking, and PDF export.
+  - [GitHub Repository](https://github.com/gauravpatel007/Ai-Resume-Intelligence)
+- **RAG-Based Study Assistant** *(Completed)*
+  - Privacy-first, locally hosted semantic document Q&A assistant built with Ollama, local LLMs, and sentence embeddings for zero-API-cost document comprehension.
+  - [GitHub Repository](https://github.com/gauravpatel007/RAG-Based-Study-assistant)
+
+### Experience & Milestones
+
+- **AI Intern** — Ativeg Technologies *(Jul 2026 – Present)*
+  - Developing NLP and AI/ML solutions with a focus on Generative AI, LangChain, RAG architectures, and agentic workflows.
+- **AI Intern** — Indus University *(Jun 2024 – Jul 2024)*
+  - Hands-on machine learning, deep learning fundamentals, and neural network modeling.
+- **Final Round Finalist** — *Odoo x Indus University Hackathon 2026*
+- **Certificate of Appreciation** — *AI Internship, Indus University (2024)*
 
 ---
 
@@ -31,7 +62,7 @@ This workspace houses the complete reconstruction, enhancement, and personalizat
 
 ```bash
 # Navigate to portfolio application
-cd portfolio-app
+cd app
 
 # Install dependencies
 npm install

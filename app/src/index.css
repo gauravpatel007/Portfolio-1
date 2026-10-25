@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #e8e4dc;
+  --accent-hover: #d6d1c6;
+  --accent-contrast: #050505;
+  --surface-lit: #cfc9bc;
+  --surface-lit-ink: #16150f;
+  --surface-lit-ink-soft: #2c2a22;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100vw;
+    scrollbar-color: #27272a #050505;
+    scrollbar-width: thin;
+  }
+  body {
+    background-color: #050505;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  /* Custom Sleek Dark Scrollbar to Eliminate Default White Track */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #050505;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #27272a;
+    border-radius: 9999px;
+    border: 2px solid #050505;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3f3f46;
+  }
+}
+
+@layer utilities {
+  .chrome-text {
+    @apply text-transparent bg-clip-text bg-gradient-to-b from-white via-gray-300 to-gray-800;
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Reference Animation Keyframes & Utility Classes */
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-50%);
+  }
+}
+
+.marquee-row {
+  --marquee-fade: 12%;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    #000 var(--marquee-fade),
+    #000 calc(100% - var(--marquee-fade)),
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    #000 var(--marquee-fade),
+    #000 calc(100% - var(--marquee-fade)),
+    transparent 100%
+  );
+  overflow: hidden;
+}
+
+.marquee-track {
+  will-change: transform;
+  width: max-content;
+  animation: marquee var(--marquee-duration, 40s) linear infinite;
+  animation-direction: var(--marquee-direction, normal);
+  display: flex;
+}
+
+.marquee-row:hover .marquee-track,
+.marquee-row:focus-within .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes halo {
+  0% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  70%, 100% {
+    opacity: 0;
+    transform: scale(2.6);
+  }
+}
+
+.animate-halo {
+  animation: 2.4s cubic-bezier(0.16, 1, 0.3, 1) infinite halo;
+}
+
+@keyframes enter-bottom-right {
+  0% {
+    clip-path: inset(100% 0 0 100%);
+    opacity: 0;
+  }
+  100% {
+    clip-path: inset(0);
+    opacity: 1;
+  }
+}
+
+.animate-enter-br {
+  animation: 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards enter-bottom-right;
+}
+
+@keyframes waterFill {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+.animate-water-fill {
+  background: linear-gradient(to top, var(--accent) 50%, transparent 50%);
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  background-position: 0 0;
+  background-size: 100% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: waterFill 2s ease forwards;
+}
+
+/* Word scrub styling in About section */
+.word {
+  display: inline-block;
+  will-change: opacity, color;
+  transition: opacity 0.1s ease, color 0.1s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none !important;
+  }
+  .animate-halo {
+    animation: none !important;
+  }
+  .animate-enter-br {
+    animation: none !important;
+    clip-path: inset(0) !important;
+    opacity: 1 !important;
+  }
+}
