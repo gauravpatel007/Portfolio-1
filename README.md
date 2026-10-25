@@ -13,7 +13,7 @@ This workspace houses the complete reconstruction, enhancement, and personalizat
 ---
 
 <p align="center">
-  <img src="./assets/hero-banner.png" alt="Gaurav Patel — AI/ML Engineer Portfolio Hero Showcase" width="100%" />
+  <img src="./assets/herobanner.png" alt="Gaurav Patel — AI/ML Engineer Portfolio Hero Showcase" width="100%" />
 </p>
 
 ## About Me — Gaurav Patel
@@ -24,7 +24,7 @@ This workspace houses the complete reconstruction, enhancement, and personalizat
 - 🎓 **Education:** B.Tech in Computer Science Engineering — Indus University (Expected May 2027)
 - 💼 **Current Role:** AI Intern at Ativeg Technologies
 - 🌐 **GitHub:** [github.com/gauravpatel007](https://github.com/gauravpatel007)
-- 💼 **LinkedIn:** [linkedin.com/in/gaurav-patel](https://linkedin.com/in/gaurav-patel)
+- 💼 **LinkedIn:** [linkedin.com/in/gaurav-patel-7a7586378](https://www.linkedin.com/in/gaurav-patel-7a7586378)
 - ✉️ **Email:** [gaurav.patel.1008.2006@gmail.com](mailto:gaurav.patel.1008.2006@gmail.com)
 
 ### Core Technical Competencies
