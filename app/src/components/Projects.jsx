@@ -72,7 +72,7 @@ export default function Projects() {
               <img
                 src={proj.img}
                 alt={`${proj.sans1} ${proj.italic} ${proj.sans2}`}
-                className="w-full h-auto object-contain rounded-xl transition-transform duration-700 ease-out group-hover:scale-[1.02]"
+                className="w-full h-auto block object-contain rounded-xl transition-transform duration-700 ease-out group-hover:scale-[1.02]"
                 loading="lazy"
               />
             </div>

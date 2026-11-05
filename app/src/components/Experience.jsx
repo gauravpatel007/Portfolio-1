@@ -5,11 +5,11 @@ const MILESTONES = [
   {
     id: 'ativeg',
     category: 'Industry Internship',
-    status: 'Active / In Progress',
-    statusType: 'active', // green glow
+    status: 'Certified with Appreciation',
+    statusType: 'cert', // blue glow
     role: 'AI Intern',
     organization: 'Ativeg Technologies',
-    period: 'Jul 2026 – Present',
+    period: 'Jul 2026 – Sep 2026',
     location: 'Ahmedabad, India',
     summary:
       'Developing production Generative AI systems, RAG architectures, and intelligent conversational workflows.',
